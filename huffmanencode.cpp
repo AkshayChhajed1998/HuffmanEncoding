@@ -266,6 +266,7 @@ class convert					//Covert Class for complete encoding process
       }
       }
     }
+    enc.write((char*)&bitbuff,sizeof(char));
     file.close();
     enc.close();
   }
@@ -328,7 +329,7 @@ int main(int argc,char * argv[])
      cout<<"Note:-In 1st Case file will be saved as encoded.txt\n";
      return 0;
    }
-   cout<<endl<<endl<<(clock()-t)/CLOCKS_PER_SEC<<endl;
+   cout<<endl<<endl<<(float)(clock()-t)/CLOCKS_PER_SEC<<endl;
 }
 
 
