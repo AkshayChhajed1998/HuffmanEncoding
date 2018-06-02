@@ -330,7 +330,7 @@ int main(int argc,char * argv[])
      cout<<"Note:-In 1st Case file will be saved as encoded.txt\n";
      return 0;
    }
-   cout<<endl<<endl<<(float)(clock()-t)/CLOCKS_PER_SEC<<endl;
+   cout<<endl<<endl<<"TIME REQUIRED:-"<<(float)(clock()-t)/CLOCKS_PER_SEC<<"sec"<<endl;
 }
 
 

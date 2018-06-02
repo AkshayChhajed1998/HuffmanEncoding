@@ -255,5 +255,5 @@ int main(int argc,char * argv[])
 
    }
   
-      cout<<endl<<endl<<(float)(clock()-t)/CLOCKS_PER_SEC<<endl;
+      cout<<endl<<endl<<"TIME REQUIRED:-"<<(float)(clock()-t)/CLOCKS_PER_SEC<<"sec"<<endl;
 }
