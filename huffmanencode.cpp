@@ -266,6 +266,7 @@ class convert					//Covert Class for complete encoding process
       }
       }
     }
+    if(count != -1)
     enc.write((char*)&bitbuff,sizeof(char));
     file.close();
     enc.close();
